@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<title></title>
+</head>
+<body>
+
+     	<div class="home-content">
+     		<div class="home-img">
+     			<img src="img/darwin.jpg" alt="">
+     		</div>
+     		<div class="home-text">
+     			<h3>999</h3>
+     			<img src="img/dawenbg.png" alt="" class="pic">
+
+     			<p>
+     			Welcome to my simple Portfolio <br>I'm<span class="color"> darwin </span> as dwen.kl
+     		    </p>
+
+     		    <div class="playmusic">
+                <img src="img/music/play.png" id="icon" class="play">
+                </div>
+                <audio id="mySong">
+                <source src="img/music/jungle.mp3" type="audio/mp3"><!----specifies multiple media resources for the picture,video,audio----->
+                </audio>
+
+                <script>   
+        
+                var mySong = document.getElementById("mySong");
+                var icon = document.getElementById("icon");
+
+
+                icon.onclick = function(){
+
+                if(mySong.paused){
+                mySong.play();
+                icon.src = "img/music/pause.png";
+                }else{
+                mySong.pause();
+                icon.src = "img/music/play.png";
+                }
+                }
+                </script>
+                <div class="opa">
+     		    <h2 contenteditable="true" style="font-size: 10px; opacity: 40%;">Play and Scroll down!</h2>
+     		    </div>
+     	    	</div>
+     		    <div class="social">
+     		    	<a href="https://www.facebook.com/Darwingacer22"><i class='bx bxl-facebook'></i></a>
+     		    	<a href="https://www.instagram.com/dwen.kl/"><i class='bx bxl-instagram'></i></a>
+     		    	<a href="https://github.com/dawenxt?fbclid=IwAR28IBnm-PcVOaox0eIprpsTBbbn-9vRdGQJd6HSw1RwVkofTGc1a172ElU"><i class='bx bxl-github'></i></a>
+     		    	<a href="https://dawinfo.github.io/contact/"><i class='bx bx-chat'></i></a>	
+     		    </div>
+     		    
+
+     	</div>
+
+     <section class="about container" id="about">
+     	<h2 class="heading">About</h2>
+     	<br>
+     	<div class="about-content">
+     		<div class="about-data">
+     			<p></p>
+     			<a href="cv.docx" class="btn" download="">
+     				Website
+     				<i class='bx bxs-chip'></i>
+     			</a>
+     		</div>
+     		<div class="about-text">
+
+     			<p><span style="color: lightblue;">Welcome to my simple Portfolio!</p>
+     			<p>Name:<span style="color: red;"> Darwin Gacer</p>
+     			<p>Course:<span style="color: red;"> Bachelor of Science in Computer Science</p>
+     			<p>Birthday:<span style="color: red;"> April 22. 2003</p>
+
+     		</div>
+     	</div>
+     </section>
+     <section class="services container" id="services">
+     	
+     	<div class="services-content">
+     		<div class="services-box">
+     			<i class='bx bxs-copyright' ></i>
+     			<h2>d</h2>
+     			<p>I hereby declare that I do not own the rights to the music/song. All rights belong to the owner.</p>
+     		</div>
+     		<div class="services-box">
+     			<i class='bx bxs-rocket' ></i>
+     			<h2>w</h2>
+     			<p> No Copyright Infringement Intended.<br><br><br>January 20. 2023</p>
+     		</div>
+     		<div class="services-box">
+     			<i class='bx bxs-bookmark-heart' ></i>
+     			<h2>e</h2>
+     			<p>"Know how to listen and you will profit even from those who talk badly."<br>-- Plutarch</p>
+     		</div>
+     		<div class="services-box">
+     			<i class='bx bxs-donate-heart' ></i>
+     			<h2>n</h2>
+     			<p>Thank you for visiting my portfolio!</p>
+     		</div>
+     		
+     	</div>
+     	<h2>..........</h2>
+     </section>
+
+</body>
+</html>
